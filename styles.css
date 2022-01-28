@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin:0;
+    padding:0;
+    
+}
+
+h3,
+h1 {
+    text-align: center;
+}
+input {
+    width: 50%;
+}
+.input {
+    display: flex;
+}
+.container {
+    width: fit-content;
+    height: max-content;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    position: relative;
+    border-radius: 1rem;
+
+}
+.buttons {
+    display: flex;
+}
+#check-btn,
+#clear-btn
+{
+    width: 50%;
+}
