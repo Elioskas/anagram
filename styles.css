@@ -106,7 +106,6 @@ input:focus{
     }
     h3{
         width: 100%;
-        margin-top: 2rem;
         border: none;
         box-shadow: none;
 
@@ -118,5 +117,9 @@ input:focus{
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+    h1,
+    h3{
+        margin: 0.5rem 0;
     }
 }
