@@ -17,6 +17,7 @@ h1 {
     text-decoration: underline;
     font-weight: 900;
     text-shadow: 1px 1px 0px steelblue;
+    margin-bottom: 2.3em;
 }
 h3 {
     border: 5px solid black;
@@ -45,7 +46,7 @@ input {
     display: flex;
 }
 .container {
-    width: max-content;
+    width: 50%;
     height: max-content;
     background: linear-gradient(25deg, rgba(33,30,89,1) 0%, rgba(40,87,124,1) 49%, rgba(153,238,255,1) 100%);
     display: flex;
@@ -77,7 +78,7 @@ input {
 input:focus{
     border: 2px blue solid;
 }
-@media (max-width: 800px){
+@media (max-width: 1040px){
 
     .container {
         display:flex;
