@@ -78,7 +78,7 @@ input {
 input:focus{
     border: 2px blue solid;
 }
-@media (max-width: 1040px){
+@media (max-width: 1144px){
 
     .container {
         display:flex;
