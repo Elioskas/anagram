@@ -77,3 +77,33 @@ input {
 input:focus{
     border: 2px blue solid;
 }
+@media (max-width: 600px){
+
+    .container {
+        display:flex;
+        flex-direction: column;
+    }
+    .input {
+        display:flex;
+        flex-direction: column;
+    }
+    .buttons {
+        display:flex;
+        flex-direction: column;
+    }
+    #clear-btn,
+    #check-btn,
+    input {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    h3{
+        color:black;
+    }
+    body{
+        background-color: gray;
+        margin:0;
+        padding:0;
+        
+    }
+}
