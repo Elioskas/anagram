@@ -82,6 +82,7 @@ input:focus{
     .container {
         display:flex;
         flex-direction: column;
+        width: 100%;
     }
     .input {
         display:flex;
@@ -103,7 +104,9 @@ input:focus{
     body{
         background-color: gray;
         margin:0;
-        padding:0;
-        
+        padding:2em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 }
