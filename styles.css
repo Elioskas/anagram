@@ -85,7 +85,7 @@ input:focus{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 40%;
+        height: max-content;
         
     }
     .input {
