@@ -4,8 +4,8 @@ function anagramChecker(){
     
     let str1 = document.getElementById("text-one").value;
     let str2 = document.getElementById("text-two").value;
-    let result1 = str1.toLowerCase(str1).split("").sort().toString().replace(/[^a-z0-9а-яšđčćž]/g, "");
-    let result2 = str2.toLowerCase(str2).split("").sort().toString().replace(/[^a-z0-9а-яšđčćž]/g, "");
+    let result1 = str1.toLowerCase(str1).split("").sort().toString().replace(/[^a-z0-9šđčćž]/g, "");
+    let result2 = str2.toLowerCase(str2).split("").sort().toString().replace(/[^a-z0-9šđčćž]/g, "");
        
     
     if(str1 === ""){
