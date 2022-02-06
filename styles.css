@@ -8,11 +8,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background: rgb(172,157,157);
+    background: linear-gradient(309deg, rgba(172,157,157,1) 0%, rgba(207,199,199,1) 49%, rgba(92,87,87,1) 100%);
     margin:0;
     padding:0;
     
 }
+#output{
+    color: cornflowerblue;
+}
+
 h1 {
     font-weight: 900;
     text-shadow: 1px 1px 0px steelblue;
@@ -29,6 +34,7 @@ h3,
 h1 {
     text-align: center;
     color: black;
+    margin: 0.5rem 0;
     
 }
 input {
@@ -120,8 +126,5 @@ input:focus{
         justify-content: flex-start;
         align-items: flex-start;
     }
-    h1,
-    h3{
-        margin: 0.5rem 0;
-    }
+   
 }
