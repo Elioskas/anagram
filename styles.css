@@ -18,6 +18,12 @@ body {
     color: cornflowerblue;
 }
 
+h3,
+h1 {
+    text-align: center;
+    color: black;
+    margin: 0.5rem 0;
+
 h1 {
     font-weight: 900;
     text-shadow: 1px 1px 0px steelblue;
@@ -30,11 +36,7 @@ h3 {
     padding: 10px;
     box-shadow: rgb(103, 158, 216) 0px 10px 10px -10px, rgb(103, 158, 216) 0px 10px 10px -10px inset;
 }
-h3,
-h1 {
-    text-align: center;
-    color: black;
-    margin: 0.5rem 0;
+
     
 }
 input {
